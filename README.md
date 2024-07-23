@@ -1,117 +1,96 @@
-# heading 1
-## heading 2
-### heading 3
-#### heading 4
-##### heading 5
-###### heading 6
+# HTML Master Guide 
 
-**This will be Bold**
+**Hyper Text Markup Language ( extension : .html or .htm ) . it can contain the data in the form of Tag and Tag addition property can be added using Attribute.**
 
-*This will be italic*
+##  🥇  HTML Structure
 
-***This will be both bold and italic***
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
 
-1. item 1
-2. item 2
-3. item 3
-   1. sub-item 1 of item 3
-   2. sub-item 2 of item 3
+## HTML Tag or Element Defination 
 
+**Elements are the building blocks of web pages. They define the structure and content of a webpage**
 
-* item 1
-* item 2
-* item 3
-   * sub-item 1 of item 3
-   * sub-item 2 of item 3
-
-[Github](https://www.github.com)
-
-![Github logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-
-As Albert Einstein said:
-> Insanity is repeating things and excepting different results.
-
-
-\ backslash 
-` backtick 
-* asterisk 
-_ underscore
-{} curly braces 
-[] square brackets 
-() parentheses 
-# hash mark 
-+ plus sign 
-— minus sign (hyphen) 
-. dot 
-! exclamation mark
+```
+<html>: Defines the beginning and end of an HTML document.
+<head>: Contains meta information about the document, such as the title, links to stylesheets and scripts, and other metadata.
+<body>: Contains the visible content of the webpage.
+<h1> to <h6>: Headings that define the importance of a section of content.
+<p>: Defines a paragraph of text.
+<a>: Creates a hyperlink to another webpage or a location within the same page.
+<img>: Displays an image on the webpage.
+<ul> and <ol>: Creates an unordered or ordered list of items.
+<li>: Defines a list item within an ordered or unordered list.
+<div>: Defines a division or section of the webpage.
+<span>: Defines a small section of text within a larger block of text.
+<form>: Creates a form for user input.
+<input>: Defines an input field for the user to enter data.
+<button>: Creates a clickable button element.
+<table>: Defines a table with rows and columns.
+<tr>: Defines a row in a table.
+<td>: Defines a cell in a table.
+```
 
 
 
 
-# <Your-Project-Title>
+<a href="https://punitkatiyar.github.io/">Home</a>
 
-## Description
+<hr>
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+<ol>
+    <li>html structure</li>
+    <li>html basic tag</li>
+    <li>html article</li>
+    <li>html text formeting</li>
+    <li>html table</li>
+    <li>html forms</li>
+    <li>html list</li>
+    <li>html map</li>
+    <li>html iframe</li>
+    <li>html Multimedia</li>
+    <li>html canvas and svg</li>
+    <li>html project</li> 
+</ol>
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+## HTML Sample Code
 
-## Table of Contents (Optional)
+<ol>
+  <li><a href="login.html">Login form template one</a></li>
+  <li><a href="login1.html">Login form template Two</a></li>
+  <li><a href="login2.html">Login form template Three</a></li>
+  <li><a href="">web template</a></li>
+  <li><a href="login.html">template one</a></li>
+  <li><a href="login1.html">template Two</a></li>
+  <li><a href="login2.html">template Three</a></li>
+  <li><a href="">Project</a></li>
+</ol>
+<hr>
+<a href="https://punitkatiyar.github.io/">Back To Home Page</a>
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+<table border="1" width="600px" bgcolor="red">
+        <tr>
+            <td>HTML Module 1</td>
+            <td>HTML Module 2</td>
+            <td>HTML Module 3</td>
+        </tr>
+        <tr>
+            <td>Module 1</td>
+            <td>Module 1</td>
+            <td>Module 1</td>
+        </tr>
+    </table>
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+    > https://bgjar.com/
