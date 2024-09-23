@@ -1,4 +1,4 @@
-## What is a HTML 
+## What is a HTML
 
 > **Html is a Standard Hypertext Markup Language for creating web pages. Html describes the structure of a web page.**
 
@@ -17,4 +17,4 @@
 
 ## Describe the Html Tags
 
-Html : it is use for Html tag to creating a window. 
+> **Html : it is use for Html tag to creating a window.**
